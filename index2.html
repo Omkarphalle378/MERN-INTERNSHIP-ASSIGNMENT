@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sunbeam Registration Form</title>
+
+  <style>
+    .sunbeamlogo {
+      display: block;
+      margin: 20px auto;
+      width: 500px;
+    }
+
+    .main {
+      display: flex;
+      gap: 40px;
+      margin-top: 20px;
+      padding-left: 20px;
+    }
+
+    .right-panel {
+      font-size: 18px;
+      font-weight: bold;
+      width: 100px;
+    }
+
+    table td {
+      padding: 5px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <img class="sunbeamlogo" src="D:\MERN ASSIGNMENTS\Screenshot 2025-12-12 065817.png" alt="">
+
+  <div class="main">
+
+    <!-- LEFT VIDEO PANEL -->
+    <div class="left-panel">
+      <iframe width="600" height="300" 
+        src="https://www.youtube.com/embed/VIDEO_ID"
+        frameborder="0"
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <!-- RIGHT FORM PANEL -->
+    <div class="right-panel">
+      <form>
+        <table cellpadding="2">
+
+          <tr>
+            <td>Name:</td>
+            <td><input type="text"></td>
+          </tr>
+
+          <tr>
+            <td>BirthDate:</td>
+            <td><input type="date"></td>
+          </tr>
+
+          <tr>
+            <td>Email:</td>
+            <td><input type="email"></td>
+          </tr>
+
+          <tr>
+            <td>Password:</td>
+            <td><input type="password"></td>
+          </tr>
+
+          <tr>
+            <td>Address:</td>
+            <td>
+              <textarea name="Address" rows="5" cols="30">Sunbeam Institute Of IT "Aunda Chambers" 203 Shaniwar Peth, Near Gujar Hospital,Karad-415110 (Maharashtra)</textarea>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Gender:</td>
+            <td>
+              <input type="radio" name="Gender" value="Male">Male
+              <input type="radio" name="Gender" value="Female">Female
+            </td>
+          </tr>
+
+          <tr>
+            <td>Upload Photo:</td>
+            <td><input type="file"></td>
+          </tr>
+
+          <tr>
+            <td>Select Course:</td>
+            <td>
+              <select name="Course">
+                <option>Select Course</option>
+                <option>MERN</option>
+                <option>AI</option>
+                <option>DS</option>
+                <option>Cyber Security</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Skill Set:</td>
+            <td>
+              <input type="checkbox"> Java
+              <input type="checkbox"> CPP
+              <input type="checkbox"> OS
+            </td>
+          </tr>
+
+          <tr>
+            <td><input type="submit"></td>
+            <td><input type="reset"></td>
+          </tr>
+
+        </table>
+      </form>
+    </div>
+
+  </div>
+
+</body>
+</html>
